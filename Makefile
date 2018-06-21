@@ -9,15 +9,15 @@ BUILD_DIR=.
 CXXFLAGS+=-O3
 
 CXXFLAGS+=-std=c++0x
-CXXFLAGS+=-mfpmath=sse
-CXXFLAGS+=-mmmx
-CXXFLAGS+=-lm
-CXXFLAGS+=-fomit-frame-pointer
-CXXFLAGS+=-fno-schedule-insns2
-CXXFLAGS+=-fexceptions
-CXXFLAGS+=-funroll-loops
-CXXFLAGS+=-march=native
-CXXFLAGS+=-m64
+#CXXFLAGS+=-mfpmath=sse
+#CXXFLAGS+=-mmmx
+#CXXFLAGS+=-lm
+#CXXFLAGS+=-fomit-frame-pointer
+#CXXFLAGS+=-fno-schedule-insns2
+#CXXFLAGS+=-fexceptions
+#CXXFLAGS+=-funroll-loops
+#CXXFLAGS+=-march=native
+#CXXFLAGS+=-m64
 CXXFLAGS+=-I$(BOOST_LOCATION)
 
 
