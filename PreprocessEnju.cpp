@@ -1,3 +1,5 @@
+// File from https://github.com/tempra28/tree2seq, with minor changes by Lane Schwartz
+
 #include "PreprocessEnju.hpp"
 #include "Utils.hpp"
 #include <iostream>

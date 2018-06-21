@@ -1,3 +1,5 @@
+# File from https://github.com/tempra28/tree2seq, with minor changes by Lane Schwartz
+
 CXX=g++
 
 BOOST_LOCATION=/usr/include/boost
